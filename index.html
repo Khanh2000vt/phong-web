@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Sign In</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <i class="fa-solid fa-angle-left"></i>
+        <p class="title">Sign In</p>
+        <div class="temp"></div>
+      </div>
+      <div class="body">
+        <div class="text">
+          <h1 class="text-title">Welcome to</h1>
+          <p class="text-container">
+            Enter your Phone Number or Email Address for Sign In. Enjoy your
+            food.
+          </p>
+        </div>
+        <div class="sign-in">
+          <div class="sign-input">
+            <form method="post">
+              <div class="user">
+                <input type="text" placeholder="username" autofocus />
+              </div>
+              <div class="password">
+                <input type="password" placeholder="password"
+                id="password"/>
+                <i class="fa-solid fa-eye-slash" id="eyePassword"></i>
+              </div>
+              <br />
+            </form>
+          </div>
+          <div class="sign-option">
+            <div class="option-save-password">
+              <!-- Rounded switch -->
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+              <p class="save-password-text">Remember</p>
+            </div>
+            <div class="option-forgot">
+              <a href="" class="forgot-link">Forgot Password?</a>
+            </div>
+          </div>
+          <div class="sign-button">
+            <button type="button">Sign In</button>
+            <div class="don-not-account">
+              <p class="button-title">Don't have an account? </p>
+              <a href="./html/sign-up.html" class="button-sign-up">Sign up</a>
+            </div>
+            <p class="text-or">OR</p>
+            <button type="button" class="button-facebook">
+              Connect with Facebook
+            </button>
+            <br />
+            <button type="button" class="button-google">
+              Connect with Google
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./javascript/main.js"></script>
+</html>
