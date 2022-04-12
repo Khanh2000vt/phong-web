@@ -2,7 +2,7 @@
 const data = [
     {
         type: 3,
-        img: '../assets/images/watch 1.jpg',
+        img: '../assets/images/watch1.jpg',
         priceNew: '11.000.000 d',
         priceOld: '14.000.000 d',
         name: 'IWatch',
@@ -10,7 +10,7 @@ const data = [
     },
     {
         type: 3,
-        img: '../assets/images/watch 2.jpg',
+        img: '../assets/images/watch2.jpg',
         priceNew: '11.000.000 d',
         priceOld: '14.000.000 d',
         name: 'IWatch',

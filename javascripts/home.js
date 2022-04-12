@@ -2,7 +2,7 @@
 const data = [
     {
         type: 1,
-        img: '../assets/images/iphone 1.jpg',
+        img: '../assets/images/iphone1.jpg',
         priceNew: '11.000.000 d',
         priceOld: '14.000.000 d',
         name: 'Iphone 11',
@@ -10,7 +10,7 @@ const data = [
     },
     {
         type: 1,
-        img: '../assets/images/iphone 2.jpg',
+        img: '../assets/images/iphone2.jpg',
         priceNew: '11.000.000 d',
         priceOld: '14.000.000 d',
         name: 'Iphone 11',
@@ -18,7 +18,7 @@ const data = [
     },
     {
         type: 1,
-        img: '../assets/images/iphone 3.jpg',
+        img: '../assets/images/iphone3.jpg',
         priceNew: '11.000.000 d',
         priceOld: '14.000.000 d',
         name: 'Iphone 11',
@@ -26,7 +26,7 @@ const data = [
     },
     {
         type: 1,
-        img: '../assets/images/iphone 4.jpg',
+        img: '../assets/images/iphone4.jpg',
         priceNew: '11.000.000 d',
         priceOld: '14.000.000 d',
         name: 'Iphone 11',
@@ -34,7 +34,7 @@ const data = [
     },
     {
         type: 1,
-        img: '../assets/images/iphone 5.jpg',
+        img: '../assets/images/iphone5.jpg',
         priceNew: '11.000.000 d',
         priceOld: '14.000.000 d',
         name: 'Iphone 11',
@@ -42,7 +42,7 @@ const data = [
     },
     {
         type: 1,
-        img: '../assets/images/iphone 6.jpg',
+        img: '../assets/images/iphone6.jpg',
         priceNew: '11.000.000 d',
         priceOld: '14.000.000 d',
         name: 'Iphone 11',
@@ -50,7 +50,7 @@ const data = [
     },
     {
         type: 1,
-        img: '../assets/images/iphone 7.jpg',
+        img: '../assets/images/iphone7.jpg',
         priceNew: '11.000.000 d',
         priceOld: '14.000.000 d',
         name: 'Iphone 11',
@@ -58,7 +58,7 @@ const data = [
     },
     {
         type: 1,
-        img: '../assets/images/iphone 8.jpg',
+        img: '../assets/images/iphone8.jpg',
         priceNew: '11.000.000 d',
         priceOld: '14.000.000 d',
         name: 'Iphone 11',
@@ -66,7 +66,7 @@ const data = [
     },
     {
         type: 2,
-        img: '../assets/images/sac 1.jpg',
+        img: '../assets/images/sac1.jpg',
         priceNew: '11.000.000 d',
         priceOld: '14.000.000 d',
         name: 'Sac Iphone',
@@ -74,7 +74,7 @@ const data = [
     },
     {
         type: 3,
-        img: '../assets/images/watch 1.jpg',
+        img: '../assets/images/watch1.jpg',
         priceNew: '11.000.000 d',
         priceOld: '14.000.000 d',
         name: 'IWatch',
@@ -82,7 +82,7 @@ const data = [
     },
     {
         type: 3,
-        img: '../assets/images/watch 2.jpg',
+        img: '../assets/images/watch2.jpg',
         priceNew: '11.000.000 d',
         priceOld: '14.000.000 d',
         name: 'IWatch',
