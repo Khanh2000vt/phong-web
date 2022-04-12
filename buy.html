@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <link rel="stylesheet" href="./css/all.css" />
-    <link rel="stylesheet" href="./css/home.css" />
-    <title>Home</title>
+    <link rel="stylesheet" href="./css/buy.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buy</title>
   </head>
   <body>
     <div class="navigation">
@@ -30,13 +30,19 @@
           <li><a href="./empty.html" class="active airpods">Airpods</a></li>
           <li><a href="./login.html" class="active supports">Login</a></li>
         </ul>
-        <ul class="search-ul">
-          <li><i class="fa-solid fa-magnifying-glass" id="search"></i></li>
-        </ul>
+        <li><i class="fa-solid fa-magnifying-glass" id="sreach"></i></li>
       </ul>
     </div>
     <div class="body">
-      <div class="list">
+      <div class="column column-frist">
+        <img src="" alt="" class="img-responsive">
+      </div>
+      <div class="column column-second">
+        <h1 class="column-title"></h1>
+        <h2 class="column-price"></h2>
+        <div class="column-button">
+            <p class="column-button-title">Đặt hàng</p>
+        </div>
       </div>
     </div>
     <div class="footer">
@@ -49,11 +55,17 @@
         <p class="happy-text">Chúc quý khách mua hàng vui vẻ !</p>
       </div>
       <div class="footer-link">
-          <a href="https://www.facebook.com/phogg02" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-          <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://twitter.com/?lang=vi" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.facebook.com/phogg02" target="_blank"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://twitter.com/?lang=vi" target="_blank"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
       </div>
     </div>
   </body>
-  <script src="./javascripts/home.js"></script>
+  <script src="./javascripts/buy.js"></script>
 </html>

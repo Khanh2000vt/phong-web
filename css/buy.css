@@ -1,0 +1,36 @@
+body {
+    background-color: #fff;
+}
+.column {
+    width: 50%;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.body {
+    flex-direction: row;
+}
+.img-responsive {
+    width: 80%;
+}
+.column-button {
+    border: 1px solid rgb(213, 213, 213);
+    width: 200px;
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.column-button-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+.column-title {
+    font-size: 50px
+}
+.column-price {
+}

@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    background-color: #dfdfdf;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content:space-around;
+  background-color: #000000;
+  color: #ffffff;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+li {
+    height:50px;
+    cursor: pointer;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.active {
+    padding: 10px 40px;
+    margin: 0 1px;
+    cursor: pointer;
+}
+.navigation {
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+}
+
+.footer {
+    display: flex;
+    background-color: #000000;
+    color: #ffffff;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.footer-link {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.active:hover {
+    background-color: #5d5d5d;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 20px;
+    /* justify-content: space-between; */
+
+}
+.list-item {
+    width: 30%;
+    border: 1px solid #c7c7c7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+    margin: 20px 5px;
+    z-index: 1;
+    cursor: pointer;
+}
+.item-img {
+    width: 100%;
+    flex: 1;
+}
+.information {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 10px 40px
+}
+.price {
+    width: 100%;
+    display: flex;
+}
+
+.price-item {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.new {
+    color: blue;
+    font-weight: bold;
+}
+
+.old {
+    color: gray;
+    opacity: 0.5;
+    text-decoration-line: line-through
+}
+
+.reduce {
+    background-color: red;
+    padding: 2px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.reduce-index {
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+}
+.search-input {
+    margin: 0 5px;
+}
